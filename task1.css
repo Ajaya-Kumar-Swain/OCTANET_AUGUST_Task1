@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font: 'poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+  padding: 14px 80px 14px 65px;
+    color: rgb(183, 64, 64);
+}
+
+p{
+    font-size: 30px;
+  padding: 14px 80px 14px 65px;
+    color: rgb(27, 23, 23);
+}
+
+h4{
+    font-size: 25px;
+   
+    color: black;
+}
+h6{
+    font-size: 12px;
+   
+    color: black;
+}
+img{
+width: 130px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 500px rgba(0,0,0,0.2);
+    background: #969b9b;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#middle-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#middle-header li{
+    list-style: none;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+    color: rgb(15, 13, 13);
+    transition: 0.3s ease;
+}
+#middle-header li:hover,
+#middle-header li.active{
+    color: rgba(183, 18, 18, 0.863);
+}
+
+nav .right-header{
+    border: 1px solid #060505;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+nav .right-header input{
+    width: 300px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+#mainbody{
+    background-image: url(images/banner.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat: top 25% right 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+    justify-content: center;
+    
+} 
+#bestsellers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#bestsellers .airdopes181{
+  
+    width: 180px;
+    padding: 15px 5px;
+    text-align: center;
+    box-shadow: 10px 10px 24px rgb(46, 42, 42);
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 15px 0px;
+  }
+ 
+  #bestsellers .airdopes181 h6{
+     padding: 10px 5px;
+     line-height: 5px;
+     border: 1px ;
+     border-radius: 4px;
+     color: #088178;
+     background-color: #fddde4;
+
+  }
+
+  footer{
+    background-color: rgb(81, 72, 69);
+    overflow: auto;
+    text-align: center;
+  }
+  #copyright{
+    margin: 20px 0px;
+    text-align: center;
+    color: antiquewhite;
+  }
+#copyright{
+    font-size: 1.7rem;
+}
